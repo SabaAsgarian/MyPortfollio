@@ -9,7 +9,7 @@ import '../globals.css'
 import Link from 'next/link';
 export default function CardBig({ }) {
   return (
-    <Card sx={{ display: 'flex', boxShadow: 'none', flexDirection: { xs: 'column', sm: 'column', md: 'row', backgroundColor: 'transparent', border: "1px solid yellow" } }} className='wor'>
+    <Card sx={{transitionDuration: '1s', display: 'flex', boxShadow: 'none', flexDirection: { xs: 'column', sm: 'column', md: 'row', backgroundColor: 'transparent', border: "1px solid yellow" } }} className='wor'>
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: { xs: '100%', sm: '100%', md: '50%' } }}>
         <Link href='https://github.com/SabaAsgarian/ShatelPersianSite' target='_blank'>
           <Image src={para} alt='para' style={{ width: '90%', height: '80%', borderRadius: '10px', border: "5px solid yellow" }} /> {/* Adjust width/height as needed */}

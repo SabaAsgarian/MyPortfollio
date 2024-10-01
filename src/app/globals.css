@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: hr;
+  src: url(./fonts/Humane-Regular.woff);
+}
+@font-face {
+  font-family: hb;
+  src: url(./fonts/Humane-Bold.woff);
+}
+@font-face {
+  font-family: pr;
+  src: url(./fonts/PlusJakartaSans-Regular.ttf);
+}
+@font-face {
+  font-family: lor;
+  src: url(./fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: sr;
+  src: url(./fonts/Satisfy-Regular.ttf);
+}
+body{
+  background: #00090c;
+}
+.h{
+  font-size: 72px;
+  background: linear-gradient(90deg, rgba(41,154,214,1) 17%, rgba(250,121,7,1) 48%, rgba(242,230,20,1) 79%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.myTexttwo{
+  font-size: 50px;
+  background: linear-gradient(90deg, rgba(41,154,214,1) 2%, rgba(250,121,7,1) 10%, rgba(242,230,20,1) 49%);;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.big{
+  transition: 1s;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+.wor{
+  transition: 1s;
+  &:hover{
+   
+    background-color:#b2b3b33e;
+    transform: scale(1.02);
+  }
+}
+.con{
+  transition: 1s;
+  &:hover{
+   font-size: 35px;
+    background: linear-gradient(90deg, rgba(41,154,214,1) 17%, rgba(250,121,7,1) 48%, rgba(242,230,20,1) 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.box-hover{
+  transition: 1s;
+  &:hover{
+    transform: translateY(-30%);
+    
+  }
+}

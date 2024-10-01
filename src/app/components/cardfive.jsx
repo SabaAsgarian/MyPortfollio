@@ -9,7 +9,7 @@ import '../globals.css'
 import Link from 'next/link';
 export default function CardBig({  }) {
   return (
-    <Card sx={{ display: 'flex', boxShadow: 'none', flexDirection: { xs: 'column', sm: 'column', md: 'row', backgroundColor:'transparent',border:"1px solid yellow" } }} className='wor'>
+    <Card sx={{ transitionDuration: '1s',display: 'flex', boxShadow: 'none', flexDirection: { xs: 'column', sm: 'column', md: 'row', backgroundColor:'transparent',border:"1px solid yellow" } }} className='wor'>
        
       <Box sx={{ width: { xs: '100%', sm: '100%', md: '50%' }, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '16px' }}>
         <CardContent>

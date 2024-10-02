@@ -74,6 +74,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 const StyledDrawer = styled(Drawer)(({ theme }) => ({
     '& .MuiDrawer-paper': {
         width: drawerWidth,
+         height:'120vh',
         backgroundColor: 'black', // Set background color to white
         color: 'white', // Set text color to black
     },

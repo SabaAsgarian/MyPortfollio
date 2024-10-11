@@ -53,7 +53,7 @@ export default function CardBig({ }) {
                             </Link>
                         </Box>
                     </Box>
-                    <Link href='https://mstorage2.jobinjacdn.com/records/files/uploads/documents/fd4f8442-7d20-4c2f-96a4-06c2a3c0476c.pdf?requester=3135312e3234362e3136382e3439&resource=753a34363139313138&from=6170706c69636174696f6e5f666f726d&X-Amz-Content-Sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=oetSom924MQvtCRu9N6vvQ4bt8cG9HSpRnxWU756SyWy5NVt6nTpmfA9aV2b%2F20241011%2F%2Fs3%2Faws4_request&X-Amz-Date=20241011T133617Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Signature=f41554228802103362ec6b3bbbab95aea408ce304d3df5553c06d885c732c63f' target="_blank">
+               <Link href='https://github.com/SabaAsgarian' target="_blank">
                     <Button sx={{transitionDuration:'1s', width: '200px',height:'50px' ,backgroundColor: '#b2b3b3', color: 'black', borderRadius: '30px', boxShadow: '10px 10px 100px 0 black)',fontFamily:'sr' ,'&:hover': {
                                     backgroundColor:'#d9d9d9'
 

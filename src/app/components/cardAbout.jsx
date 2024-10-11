@@ -53,7 +53,7 @@ export default function CardBig({ }) {
                             </Link>
                         </Box>
                     </Box>
-               <Link href='https://github.com/SabaAsgarian' target="_blank">
+               <Link href='https://github.com/user-attachments/files/17346666/a.pdf' target="_blank">
                     <Button sx={{transitionDuration:'1s', width: '200px',height:'50px' ,backgroundColor: '#b2b3b3', color: 'black', borderRadius: '30px', boxShadow: '10px 10px 100px 0 black)',fontFamily:'sr' ,'&:hover': {
                                     backgroundColor:'#d9d9d9'
 
